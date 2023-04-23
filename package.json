@@ -1,0 +1,40 @@
+{
+  "name": "devexchange",
+  "version": "1.0.0",
+  "description": "Social Network for Developers ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Alok Tripathi",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.11",
+    "normalize-url": "^5.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnsalok/dev-exchange.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/gnsalok/dev-exchange/issues"
+  },
+  "homepage": "https://github.com/gnsalok/dev-exchange#readme"
+}
